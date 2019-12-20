@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e4ecec"
+    tools:context=".PolyAlphabetic">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Polyalphabetic Cipher"
+            android:textSize="34dp" />
+
+        <EditText
+            android:id="@+id/plaintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the M order" />
+
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_margin="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+
+
+        <Button
+            android:id="@+id/Encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encrypt" />
+
+        <TextView
+            android:id="@+id/text"
+            android:textSize="18dp"
+            android:layout_margin="10dp"
+            android:textColor="#25963e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrpted Text here" />
+    </LinearLayout>
+</FrameLayout>

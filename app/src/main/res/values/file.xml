@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="_array">
+        <item>M1 M2 M3</item>
+        <item>M1 M3 M2</item>
+        <item>M2 M1 M3</item>
+        <item>M2 M3 M1</item>
+        <item>M3 M2 M1</item>
+        <item>M3 M1 M2</item>
+    </string-array>
+</resources>

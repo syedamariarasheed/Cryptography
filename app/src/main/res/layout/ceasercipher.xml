@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFF"
+    tools:context=".CeaserCipher">
+<LinearLayout
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#f2fafa"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ceaser Cipher"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plaintext"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the key"
+        />
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/key"
+        />
+    <Button
+        android:text="Encrypt"
+        android:id="@+id/Encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Decrypt"
+        android:id="@+id/Decrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrpted Text here"
+        />
+</LinearLayout>
+</FrameLayout>
